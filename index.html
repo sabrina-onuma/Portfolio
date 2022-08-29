@@ -3,6 +3,7 @@
 
     <head>
         <title>Homepage</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
         <link rel="stylesheet" href="css/style.css" />
         <link rel="stylesheet" href="css/projects.css" />
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
@@ -11,18 +12,23 @@
     </head>
     <body>
         <header>
-            <nav id="myRightnav">
-                <a href="#linkedin">LinkedIn</a>
-                <a href="#email">Email</a>
-            </nav>
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Email</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">LinkedIn</a>
+                </li>
+              </ul>
         </header>
         <section id="mySidenav" class="sidenav">
             <img id="logoImg" src="images/Logo.png">
-            <ul>
-                <li><a href="about.html">About</a></li>
-                <li>Resume</li>
-                <li class="navItem"><a href="#pSection">Projects</a></li>
-            </ul>
+            <nav class="nav flex-column">
+                <a class="nav-link active" href="#">Home</a>
+                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="#">Resume</a>
+                <a class="nav-link" href="#pSection">Projects</a>
+              </nav>
             <footer>
                 <p>
                     Copyright 2022<br>
