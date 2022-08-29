@@ -25,7 +25,7 @@
             <img id="logoImg" src="images/Logo.png">
             <nav class="nav flex-column">
                 <a class="nav-link active" href="#">Home</a>
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="#mySkills">About</a>
                 <a class="nav-link" href="#">Resume</a>
                 <a class="nav-link" href="#pSection">Projects</a>
               </nav>
@@ -36,57 +36,60 @@
                 </p>
             </footer>
         </section>
-        <section class="heroImg" id="hSection">
-            <img id="profileImg" src="images/Profile.jpeg">
-            <h1>Hello - I am<br>
+        <div id="intro" class="jumbotron">
+              <img id="profileImg" src="images/Profile.jpeg">
+              <h1 class="h3">Hello - I am<br>
                 Sabrina Onuma<br>
-                UX Designer
-            </h1>
-            <p> About me pargraph lorem ipsum dolor sit moet coneectetur <br>
+                UX Designer</h1>
+              <p>About me pargraph lorem ipsum dolor sit moet coneectetur <br>
                 adilpsing elit, sed do eirmeo temao incidint it lavoe et<br> 
-                dolote mafna aliqua.
-            </p>
+                dolote mafna aliqua.</p>
+        </div>
+        <section id="mySkills">
+        <div id="#skills" class="jumbotron jumbotron-fluid"> 
+            <div class="card-deck">
+                <div class="card card-header"><h2>UX Skills</h2></div>
+                <div class="card">
+                  <img  src="images/Icon_Research.png" class="mx-auto d-block card-img-top" alt="Book Icons">
+                  <div class="card-body">
+                    <h5 class="card-title text-center">User Research</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit,
+                        sed do eiusmod tempor
+                        incididunt ut labore et dolore
+                        magna aliqua.Ut enim ad minim 
+                        veniam,quis nostrud.</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/Icon_UI.png"class="mx-auto d-block card-img-top" alt="Design Icon">
+                  <div class="card-body">
+                    <h5 class="card-title text-center">User Interface Design</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit,
+                        sed do eiusmod tempor
+                        incididunt ut labore et dolore
+                        magna aliqua.Ut enim ad minim 
+                        veniam,quis nostrud.</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img  src="images/Icon_Cog.png" class="mx-auto d-block card-img-top" alt="Brain Icon">
+                  <div class="card-body">
+                    <h5 class="card-title text-center">Cognitive Science</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit,
+                        sed do eiusmod tempor
+                        incididunt ut labore et dolore
+                        magna aliqua.Ut enim ad minim 
+                        veniam,quis nostrud.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
         </section>
-
-        <section class="mySkills">   
-            <!-- My UX Skills section coded using CSS flex -->
-               <h1>My UX Skills</h1>
-               <div class="flexContainer">
-                   <div>
-                       <img id="researchIcon" src="images/Icon_Research.png">
-                       <h2>User Research</h2>
-                       <p>Lorem ipsum dolor sit amet, <br>
-                           consectetur adipiscing elit,<br> 
-                           sed do eiusmod tempor <br>
-                           incididunt ut labore et dolore<br>
-                           magna aliqua.Ut enim ad minim<br> 
-                           veniam,quis nostrud.</p>
-                   </div>
-                   <div>
-                       <img id="interfaceIcon" src="images/Icon_UI.png">
-                       <h2>User Interface Design</h2>
-                       <p>Lorem ipsum dolor sit amet, <br>
-                           consectetur adipiscing elit,<br> 
-                           sed do eiusmod tempor <br>
-                           incididunt ut labore et dolore<br>
-                           magna aliqua.Ut enim ad minim<br> 
-                           veniam,quis nostrud.</p>
-                   </div>
-                   <div>
-                       <img id="cogIcon" src="images/Icon_Cog.png">
-                       <h2>Cognitive Science</h2>
-                       <p>Lorem ipsum dolor sit amet, <br>
-                           consectetur adipiscing elit,<br> 
-                           sed do eiusmod tempor <br>
-                           incididunt ut labore et dolore<br>
-                           magna aliqua.Ut enim ad minim<br> 
-                           veniam,quis nostrud.</p>
-                   </div>
-               </div>
-           
         <section class="myWork" id="pSection">
-            
-            <div class="workGrid">
+                <div class="workGrid">
                 <h2 id="projTitle">Projects</h2>
                 <div class="projImg">
                     <img id="MM" src="images/Proj_MM.png">

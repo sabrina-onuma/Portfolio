@@ -7,6 +7,28 @@ body{
     color: #1c1c1c;
     font-style: none;
 }
+#intro{
+
+}
+#mySkills{
+    margin-top: 10%;
+}
+.jumbotron{
+    background-color: transparent;
+    width: 75%;
+    margin-left: 16%;
+    margin-right: 0%;
+    margin-bottom: 20%;
+}
+
+.card-img-top{
+    height: 100px;
+    width: 100px;
+}
+.card{
+    border: none;
+    background-color: transparent;
+}
 header{
     height: 100px;
 }
@@ -15,20 +37,18 @@ ul {
     padding: 0%;
     /*text-align: center;*/
 }
-nav > a{
-    float: right;
-    padding: 6px 18px 6px 18px;
-    text-decoration: none;
-}
+
 li {
     padding: 18px 6px 18px 6px;
     list-style: none;
 }
 #logoImg {
     display: block;
+    
     margin-left: auto;
     margin-right: auto;
     height: 100px;
+    margin-bottom: 10%;
 }
 
 #mySidenav {
