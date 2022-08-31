@@ -40,13 +40,13 @@
               <img id="profileImg" src="images/Profile.jpeg">
               <h1 class="h3">Hello - I am<br>
                 Sabrina Onuma<br>
-                UX Designer</h1>
-              <p>About me pargraph lorem ipsum dolor sit moet coneectetur <br>
-                adilpsing elit, sed do eirmeo temao incidint it lavoe et<br> 
-                dolote mafna aliqua.</p>
+              </h1><h1 class="h3" id="jobTitle">UX/UI Designer</h1>
+              <p id="aboutMe">I have a passion for bringing my diverse background of <br>
+                Cognitive Science, Linguistics, and coding to create<br>
+                <s>user</s> human experiences.
         </div>
         <section id="mySkills">
-        <div id="#skills" class="jumbotron jumbotron-fluid"> 
+        <div id="skills" class="jumbotron jumbotron-fluid"> 
             <div class="card-deck">
                 <div class="card card-header"><h2>UX Skills</h2></div>
                 <div class="card">
@@ -88,33 +88,36 @@
               </div>
             </div>
         </section>
-        <section class="myWork" id="pSection">
-                <div class="workGrid">
-                <h2 id="projTitle">Projects</h2>
-                <div class="projImg">
-                    <img id="MM" src="images/Proj_MM.png">
-                </div>
-                <div class="projInfo">
-                    <h4>Mentor Match App</h4>
-                    <p>An app development project focused on<br>
-                        the research of recent college grads <br>
-                        who are ready to make the next big step<br>
-                        into their dream career. </p>
-                    <button class="caseButton">View Case Study</button>
-                </div>
-                <div class="projImg">
-                    <img id="chum" src="images/Proj_Chum.png">
-                </div>
-                <div class="projInfo">
-                    <h4>Non-Profit Redesign</h4>
-                    <p>A redesign for the non-profit organization<br>
-                        CHUM focused on improving the design to make<br>
-                        it more accessible to the community who are<br>
-                        in need of these resources the most.</p>
-                    <button class="caseButton">View Case Study</button>
-                </div>
-                <div id="buttonProj"><button id="viewButton">View All Projects</button></div>
+        <section id="pSection">
+          <div id="row1" class="card-group">
+            <div class="card card-header"><h2>Projects</h2></div>
+            <div id="imgCard" class="card">
+              <img src="images/Proj_MM.png" class="card-img" alt="Mentorship App Preview">
             </div>
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Mentor Match App</h5>
+                <p class="card-text">An app development project focused on the research of recent college grads who are ready to make the next big step into their dream career</p>
+                <button class="caseButton">View Case Study</button>
+              </div>
+            </div>
+            <div id="row2" class="card-group">
+            <div class="card" id="empty"><h2></h2></div>
+            <div id="imgCard" class="card">
+              <img src="images/Proj_Chum.png" class="card-img" alt="CHUM Non-Profit Logo">
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Non-Profit Redesign</h5>
+                <p class="card-text">A redesign for the non-profit organization
+                  CHUM focused on improving the design to make
+                  it more accessible to the community who are
+                  in need of these resources the most.</p>
+                <button class="caseButton">View Case Study</button>
+              </div>
+            </div>
+           </div>
+          </div>
         </section>
         
     </body>

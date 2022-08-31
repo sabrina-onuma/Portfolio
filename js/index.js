@@ -1,11 +1,9 @@
-$("li").hover(function(){
+$("a").hover(function(){
     $(this).css("color","#B15318");},
     function(){
     $(this).css("color","#1c1c1c");
 
-})
-
-    
+})  
 $("#pSection").click(function(event) {
         
     if (this.hash !== "") {

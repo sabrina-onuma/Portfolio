@@ -8,7 +8,17 @@ body{
     font-style: none;
 }
 #intro{
-
+    padding-top: 10%;
+}
+#jobTitle{
+    font-weight: bold;
+}
+#aboutMe{
+    margin-top: 3%;
+}
+#skills{
+    padding-bottom: 0;
+    padding-top: 10%
 }
 #mySkills{
     margin-top: 10%;
@@ -20,7 +30,22 @@ body{
     margin-right: 0%;
     margin-bottom: 20%;
 }
-
+#imgCard{
+    padding-right: 15%
+}
+#pSection{
+    width: 75%;
+    padding-top: 5%;
+    margin-left: 16%;
+    margin-bottom: 15%;
+    padding-right: 5%;
+}
+#pSection2{
+    width: 75%;
+    margin-left: 16%;
+    margin-bottom: 20%;
+    padding-right: 5%;
+}
 .card-img-top{
     height: 100px;
     width: 100px;
@@ -29,18 +54,14 @@ body{
     border: none;
     background-color: transparent;
 }
+#row2{
+    margin-top: 5%;
+}
 header{
     height: 100px;
 }
-ul {
-    list-style: none;
-    padding: 0%;
-    /*text-align: center;*/
-}
-
-li {
-    padding: 18px 6px 18px 6px;
-    list-style: none;
+a{
+    color: #1c1c1c;
 }
 #logoImg {
     display: block;
