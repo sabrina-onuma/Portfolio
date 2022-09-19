@@ -30,8 +30,17 @@ body{
     margin-right: 0%;
     margin-bottom: 20%;
 }
+#MW{
+    width: 75%;
+}
 #imgCard{
-    padding-right: 15%
+    padding-right: 15%;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 #pSection{
     width: 75%;
@@ -54,7 +63,13 @@ body{
     border: none;
     background-color: transparent;
 }
+.card-text{
+    font-size: 16px;
+}
 #row2{
+    margin-top: 5%;
+}
+#row3{
     margin-top: 5%;
 }
 header{
