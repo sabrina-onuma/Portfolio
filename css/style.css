@@ -49,6 +49,9 @@ body{
     margin-bottom: 15%;
     padding-right: 5%;
 }
+#projB{
+    color: white;
+}
 #pSection2{
     width: 75%;
     margin-left: 16%;
@@ -72,11 +75,20 @@ body{
 #row3{
     margin-top: 5%;
 }
+#pHeader{
+    padding-right: 0;
+}
+#mCard{
+    padding-left: 16px;
+}
 header{
     height: 100px;
 }
-a{
+.nav-link{
     color: #1c1c1c;
+}
+a{
+    color: white;
 }
 #logoImg {
     display: block;
