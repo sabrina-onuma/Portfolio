@@ -4,12 +4,12 @@ $(".nav-link").hover(function(){
     $(this).css("color","#1c1c1c");
 
 })  
-$(".projB").hover(function(){
+/*$(".projB").hover(function(){
     $(this).css("color","#B15318");},
     function(){
     $(this).css("color","#FFFFFF");
 
-})  
+})  */
 $(document).ready(function () {
     $("#chumB").click(function () {
         window.open(location.href = "images/CHUM_SlideDeck.pdf");
