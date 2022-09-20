@@ -12,19 +12,19 @@ $(".projB").hover(function(){
 })  
 $(document).ready(function () {
     $("#chumB").click(function () {
-        window.open(location.href = "/images/CHUM_SlideDeck.pdf");
+        window.open(location.href = "images/CHUM_SlideDeck.pdf");
         return false;
     });
 });
 $(document).ready(function () {
     $("#mwB").click(function () {
-        window.open(location.href = "/images/MW_SlideDeck.pdf");
+        window.open(location.href = "images/MW_SlideDeck.pdf");
         return false;
     });
 });
 $(document).ready(function () {
     $("#mentorB").click(function () {
-        window.open(location.href = "/images/Mentor_SlideDeck.pdf");
+        window.open(location.href = "images/Mentor_SlideDeck.pdf");
         return false;
     });
 });
