@@ -11,7 +11,9 @@
     "button button";
     row-gap: 10%;
 }
-
+#intro{
+    padding-top: 10%;
+}
 .myWork{
     
     width: 75%;
