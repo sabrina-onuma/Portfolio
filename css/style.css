@@ -30,6 +30,7 @@ body{
 }
 #MW{
     width: 75%;
+    padding-top: 10%;
 }
 #imgCard{
     padding-right: 15%;
@@ -122,7 +123,7 @@ a{
 }
 
 #profileImg {
-    height: 415px;
+    height:400px;
     float: left;
     padding-right: 10%;
 }

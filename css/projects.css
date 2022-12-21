@@ -19,6 +19,14 @@
     width: 75%;
     float: right;
 }
+#chumLogo{
+    padding-top: 25%;
+}
+#mentorLogo{
+    padding-top: 5%;
+}
+
+
 #projTitle{
     grid-column: 1/3;
 }
